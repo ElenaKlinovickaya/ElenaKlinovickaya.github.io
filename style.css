@@ -1,0 +1,149 @@
+@font-face {
+    font-family: TM Vinograd;
+    src: url(TMVinograd-Regular.ttf);
+}
+/* Header */
+.header {
+    width: 100%;
+    color: aliceblue;
+    padding: 20px;
+    font-family: TM Vinograd;
+    background-image: linear-gradient(to top, #bea2f3 0%, #fbc8d4 100%);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.logo-img{
+    margin-right: 20px;
+}
+.header-menu{
+    flex-grow: 3;
+}
+.menu{
+    margin-left: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.menu-item {
+    list-style: none;
+}
+.menu-link{
+    color:white;
+    -webkit-text-stroke: 0%;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* Main */
+.banner-text{
+    text-align: center;
+    color: white;
+}
+.banner-title{
+    font-size: 48px;
+    font-family:TM Vinograd;
+    
+}
+.banner-section{
+    padding: 100px 0;
+    background: url(Единорог.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cards-section{
+    color:rebeccapurple;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 0px;
+}
+.cards-title, .card-title{
+    font-family: TM Vinograd;
+}
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 40px 0px #bea2f3;   
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    transition: box-shadow 0.3s;
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(auto, auto));
+    grid-gap: 20px;
+}
+.card:hover{
+    box-shadow: 0px 4px 50px 10px #bea2f3;
+}
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+.card-button{
+    text-align: center;
+    background: rebeccapurple;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* Footer */
+.footer{
+    background-image: linear-gradient(to top, #7520dc 0%, #bea2f3 100%);
+    padding: 100px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-text{
+    color:white;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: flex-end;
+}
+.hero__link {
+    margin: 10px;
+    font-size: 40px;
+    color:#2e095b;
+    transition: color 0.3s;
+ }
+ .hero__link:hover {
+    color: rgb(251, 248, 248);
+ }
+ .footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
