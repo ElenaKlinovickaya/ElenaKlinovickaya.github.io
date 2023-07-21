@@ -123,6 +123,7 @@
     background-image: linear-gradient(to top, #7520dc 0%, #bea2f3 100%);
     padding: 100px 0px;
     font-family: 'Times New Roman', Times, serif;
+    width: 100%;
 }
 .footer-text{
     color:white;
